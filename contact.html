@@ -16,5 +16,26 @@
         <li><a href="stories.html">Success Stories</a></li>
       </ul>
     </nav>
+
+    <section class="forms"></section>
+    <form action="post" method="post">
+      <fieldset>
+        <legend>Kindly submit your questions and comments</legend>
+        <label for="name">Enter your name:</label>
+        <input type="text" name="name" id="name" required /> <br />
+        <label for="email">Enter your email:</label>
+        <input type="email" name="email" id="email" required /> <br />
+        <label for="text">Do You Agree</label> <br />
+        <input type="checkbox" name="Yes" value="on" />Yes
+        <input type="checkbox" name="No" value="on" />No <br />
+        <!-- <label for="che"></label> -->
+        Comments or Questions:<br />
+        <textarea name="comment" id="comment" cols="80" rows="40">
+          Enter Your Comments or Questions</textarea
+        >
+        <br />
+        <input type="submit" value="Submit Form" />
+      </fieldset>
+    </form>
   </body>
 </html>
