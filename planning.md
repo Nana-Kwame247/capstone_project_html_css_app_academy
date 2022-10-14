@@ -1,13 +1,13 @@
-## H1 headers
+# H1 headers
 
-# Font - family : Roboto , sans-serif;
+## Font - family : Roboto , sans-serif;
 
-# font color: #000
+## font color: #000
 
-## H2 headers
+# H2 headers
 
-# font-family: Poppins
+## font-family: Poppins
 
-## Test
+# Text
 
-# font-family: Open Sans
+## font-family: Open Sans
