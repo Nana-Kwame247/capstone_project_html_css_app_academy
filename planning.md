@@ -11,3 +11,7 @@
 # Text
 
 ## font-family: Open Sans
+
+# Layout: Grid and flexbox
+
+### grid using rows with auto heights with flex box moving the nav bar
