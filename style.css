@@ -5,3 +5,35 @@
   margin: 0;
   padding: 0;
 }
+
+.container_first_page {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 3px;
+}
+
+.navbar {
+  width: 100%;
+  background-color: darkgreen;
+  /* padding-left: 30px;
+  padding-right: 10px; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .nav-item a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+} */
+
+.nav-item:hover {
+  background-color: white;
+}
